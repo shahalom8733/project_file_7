@@ -1,0 +1,179 @@
+@media all and (max-width: 990px){
+	.menu_icon {
+	  display: block;
+	  margin-top: -1.2rem;
+    }
+	.menu ul {
+		display: none;
+		top: 62px;
+		position: absolute;
+		text-align: center;
+		width: 100%;
+		z-index: 9;
+		background: rgba(0,0,0,.9);
+		padding: 10px;
+	}
+	.menu {
+		position: relative;
+	}
+	.menu ul li a { 
+		padding: 5px 0;
+	}
+	.menu ul li a:after{
+		display: none;
+	}
+
+	 /*Slider Area*/
+	 .carousel-item img{
+	 	height:100vh !important;
+	 	width: auto !important;
+	 }
+
+	 .menu ul li::after {
+	display: none;
+}
+
+.banner-text h1 span {
+	font-size: 49px;
+	display: block;
+}
+.banner-text h1 {
+    font-size: 120px;
+ 
+}
+
+
+
+	
+}
+
+@media all and (min-width: 990px){
+	.menu ul {
+		display: flex !important;
+	}
+
+}
+
+
+@media all and (max-width: 767px){
+	.section-padding {
+		padding: 50px 0;
+	}
+	.section-padding {
+		padding: 50px 0;
+	}
+	.banner-text h1{
+		font-size:80px;
+		text-shadow: 0 0 5px #000;
+	}
+	.banner-text h1 span {
+		font-size: 30px; 
+	}
+	.logo a{
+		font-size:25px;
+	}
+
+	.featured-header h2 {
+		width: 100%;
+		margin: auto;
+		font-size: 20px;
+		line-height: 30px;
+	}
+
+	.section-heading p { 
+		width: 100%; 
+		margin-top: 10px;
+	}
+	.single-member { 
+		margin-bottom: 30px;
+	}
+	.subscribe h1{
+		font-size:30px;
+	}
+
+
+	
+	/*.port-items{
+		grid-template-columns: 100%;
+	}*/
+	.item-1,.item-2,.item-3,.item-4,.item-5,.item-6{
+		grid-column: 1/8;
+	} 
+
+	.item-1 img{
+		width:100%;
+	}
+	.set {
+	justify-content: center;
+}
+
+
+}
+
+@media all and (max-width: 767px){
+	.portfolio-menu ul {
+	align-items: center;
+	flex-wrap: wrap;
+}
+.portfolio-menu ul li {
+	margin-bottom: 1rem;
+}
+.portfolio-menu {
+	margin-top: 40px;
+}
+.port-items {
+	margin-top: 40px;
+}
+
+
+}
+@media all and (max-width: 575px){
+	.portfolio-menu ul {
+	flex-wrap: wrap;
+}
+.portfolio-menu ul li {
+	margin-bottom: 1rem;
+}
+	.menu_icon { 
+		position: absolute;
+		top: -40px;
+		right: 0;
+	}
+	.team-heading {
+	margin-bottom: 43px;
+}
+.row.text-center {
+	row-gap: 60px;
+}
+.city {
+	justify-content: center;
+}
+.slide a i {
+	display: none;
+}
+.menu ul {
+	top: 22px;
+	padding: 44px;
+}
+
+
+}
+@media all and (max-width: 480px){
+.set {
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.set .col-6 {
+	flex: 0 0 50%;
+	max-width: 80%;
+}
+.city .col-4{
+	flex: 0 0 100%;
+	max-width: 50%;
+}
+.banner-text h1 {
+	font-size: 70px;
+}
+
+}

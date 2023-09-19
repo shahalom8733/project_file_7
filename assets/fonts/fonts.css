@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Back to Black Demo';
+    src: url('BacktoBlackDemo.woff2') format('woff2'),
+        url('BacktoBlackDemo.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
